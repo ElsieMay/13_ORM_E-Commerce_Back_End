@@ -1,6 +1,9 @@
 const express = require("express");
 const routes = require("./routes");
+// Import and require Sequelize
 const sequelize = require("./config/connection");
+// Import and require mysql2
+const mysql = require("mysql2");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
