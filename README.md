@@ -36,6 +36,9 @@ I was aided by the BCS Learning assistant. They instructed me well.
 I followed these links for tutorials and additional readings;
 
 https://zellwk.com/blog/seed-database/<br>
+https://www.youtube.com/watch?v=sbfwprY7TQw<br>
+https://www.tabnine.com/code/javascript/functions/sequelize/Model/belongsTo<br>
+https://sequelize.org/docs/v6/core-concepts/assocs/<br>
 
 ## License
 
