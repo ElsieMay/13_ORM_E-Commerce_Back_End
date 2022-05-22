@@ -53,7 +53,7 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-	// update category data
+	// updates category data
 	Category.update(req.body, {
 		where: {
 			id: req.params.id,
@@ -71,17 +71,17 @@ router.put("/:id", (req, res) => {
 		});
 });
 
-router.delete("/:id", (req, res) => {
+router.delete("/:id", async (req, res) => {
 	// deletes a category by its `id` value
 	try {
-		const deleteCategory = await product.destroy({
+		const deleteCategory = await Category.destroy({
 			where: {
 				id: req.params.id,
 			},
 		});
 
 		if (!deleteCategory) {
-			res.status(404).json({ message: "No product found with this id!" });
+			res.status(404).json({ message: "No category found with this id!" });
 			return;
 		}
 
