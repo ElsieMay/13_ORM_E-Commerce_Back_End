@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "express.js": "^1.0.0",
     "mysql2": "^2.3.3",
-    "sequelize": "^5.22.5"
+    "sequelize": "^5.22.5",
+    "util": "^0.12.4"
   }
 }
