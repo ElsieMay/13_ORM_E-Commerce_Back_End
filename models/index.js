@@ -7,14 +7,14 @@ const ProductTag = require("./ProductTag");
 // Products belongsTo Category
 Product.belongsTo(Category, {
 	// Defines an alias for when data is retrieved
-	as: "product_category",
+	// as: "product_category",
 	foreignKey: "category_id",
 });
 
 // Categories have many Products
 Category.hasMany(Product, {
 	// Defines an alias for when data is retrieved
-	as: "category_products",
+	// as: "category_products",
 	foreignKey: "category_id",
 });
 
@@ -25,8 +25,8 @@ Product.belongsToMany(Tag, {
 		unique: false,
 	},
 	// Defines an alias for when data is retrieved
-	as: "product_tags",
-	// foreignKey: "product_id",
+	// as: "product_tags",
+	foreignKey: "product_id",
 });
 
 // Tags belongToMany Products (through ProductTag)
@@ -36,7 +36,7 @@ Tag.belongsToMany(Product, {
 		unique: false,
 	},
 	// Defines an alias for when data is retrieved
-	as: "tag_products",
+	// as: "tag_products",
 	foreignKey: "tag_id",
 });
 
