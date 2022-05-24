@@ -15,11 +15,11 @@ I learnt about using node js, MySQL, Sequelize, data relationships, promises, se
 
 ## Installation
 
-To install necessary dependencies, run the following command: `npm install`. Please refer to the below demo in Insomnia.
+To install necessary dependencies, run the following command: `npm install`. Please refer to the below demo for further information.
 
 ## Demo
 
-https://drive.google.com/file/d/1yiN2Ufl_7Uwnj6C_xChywymYjF6Rb3QL/view
+https://drive.google.com/file/d/1rNIL8W7X5U5F0dMnREF_kzOSFjyBOWQ9/view
 
 ## Usage
 
