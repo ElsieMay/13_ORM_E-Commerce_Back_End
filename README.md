@@ -27,13 +27,13 @@ The Github repository can be viewed via this link, https://github.com/ElsieMay/1
 
 ## App Screenshots
 
-![Screenshot](https://github.com/ElsieMay/12_Homework_Employee_Tracker/blob/main/images/Screen%20Shot%202022-05-16%20at%2010.44.44%20pm.png)
+![Screenshot](https://github.com/ElsieMay/13_ORM_E-Commerce_Back_End/blob/main/images/Screen%20Shot%202022-05-24%20at%2010.10.33%20pm.png)
 
 ## Credits
 
 I was aided by the BCS Learning assistant. They instructed me well.
 
-I followed these links for tutorials and additional readings;
+I followed these links for tutorials and additional readings:
 
 https://zellwk.com/blog/seed-database/<br>
 https://www.youtube.com/watch?v=sbfwprY7TQw<br>
